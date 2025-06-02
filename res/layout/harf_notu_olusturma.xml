@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/mor">
+        <ImageButton
+            android:id="@+id/anaSayfaDon3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/green_circle_button"
+            android:src="@android:drawable/ic_menu_revert"
+            android:contentDescription="@string/ana_menu_exp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/krem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notDiziAct1"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:textColor="#673AB7"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <EditText
+                android:id="@+id/notDizisiIsmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:text="- - Not İsmi - -"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="@string/notEkleBilgi"
+                android:textColor="@color/mor"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/notIsmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/notHint"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/alexandria"
+                    android:textSize="13sp"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="5dp"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/notunEtkisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/puanHint"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/alexandria"
+                    android:textSize="13sp"
+                    android:inputType="numberDecimal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:id="@+id/notEkle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notEkleButton"
+                android:layout_gravity="center"
+                android:fontFamily="@font/basic"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/notDizisiInfo"
+                android:textColor="@color/mor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/mor_border"
+                android:divider="@color/black"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dersNotu"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/basic"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/notPuani"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/basic"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deleteBtn"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/basic"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+
+            <com.unisaver.unisaver.RecyclerViewWithMaxHeight
+                android:id="@+id/tablo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4F673AB7"
+                app:maxHeight="400dp" />
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:id="@+id/harfDizisiOlustur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diziOlustur"
+                android:layout_gravity="center"
+                android:fontFamily="@font/basic"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</LinearLayout>

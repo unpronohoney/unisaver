@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name" translatable="false">UniSaver</string>
+    <string name="first_head">UniSaver</string>
+    <string name="wish_luck">- - - Kolay Gelsin - - -</string>
+    <string name="giveAdvise">UniSaver Bilgilendirme</string>
+    <string name="aimOfProject">\t\tUniSaver uygulaması; üniversite puanları hesaplamanıza hızlı ve anlaşılır bir yol olabilmek için tasarlanmıştır.\n
+    \t\tBu uygulamada yapabileceğiniz işlemler ve açıklamaları:\n</string>
+    <string name="info_head1">1 - Manuel agno Hesabı:</string>
+    <string name="info_head2">2 - Kombinasyonlu agno Hesabı:</string>
+    <string name="info_head3">3 - Transkript belgesi ile agno hesabı:</string>
+    <string name="info_head4">4 - Dönem sonu ve ders notu değiştirerek agno hesabı için harf notu bilgileri:</string>
+
+    <string name="head1_exp">\t\tAgno ve kredi (önceki harf notu olmayan dersleri katmadan) bilgilerini girdikten sonra tabloya ders ekleyerek hesaplama işlemleri yapabilirsiniz.\n</string>
+    <string name="head2_exp">\t\tYine agno ve kredi bilgilerinizi girdikten sonra hesaplanmasını istediğiniz dersleri girip \"bitti\" butonuna tıklayın. Hesaplama kısıtlarını ayarlayıp hesaplanan kombinasyonları görüntüleyebilirsiniz.\n</string>
+    <string name="head3_exp">\t\tE-Devlet\'ten aldığınız (.pdf uzantılı) transkript belgeniz ile istediğiniz işlemleri rahatça yapabilirsiniz. Uygulama, dersleriniz ile bir tablo oluşturur. Siz bu tabloya yeni ders girişi, var olan dersi silme ve var olan dersin notunu değiştirme işlemlerini uygulayabilirsiniz.\n</string>
+    <string name="head4_exp">\t\tBahsedilen bu işlemlerde harf notları ve karşılıkları belirlidir. \"AA\" = 4.0 ve \"FF\" = 0.0 olmak üzere azalarak devam eder. Eğer üniversitenizdeki harf notu sistemi farklı ise \"Transkript Belgesi ile Agno Hesabı\" kısmını kullanabilirsiniz.\n\t\tAyrıca belgelerdeki kişisel bilgileriniz ile ilgili herhangi bir işlem yapılmayacağını taahhüt ediyoruz.\n</string>
+
+    <string name="ana_menu_exp">Ana Menüye Dönme Simgesi</string>
+    <string name="info_exp">Bilgi Alma Simgesi</string>
+    <string name="back_exp">Geri Dön Simgesi</string>
+
+    <string name="main_btns1">Manuel Agno Hesabı</string>
+    <string name="main_btns2">Kombinasyonlu Agno Hesabı</string>
+    <string name="main_btns3">Transkript Belgesi ile Agno Hesabı</string>
+    <string name="main_welcome">Hoşgeldiniz.</string>
+    <string name="main_head1">Lütfen işlem seçiniz:</string>
+    <string name="main_head2">Bilgi almak için tıklayınız.</string>
+    <string name="main_btns4">Görüşlerinizi Bize İletin</string>
+
+    <string name="act_1_head1">Yeni Dönem Hesabı</string>
+    <string name="act_1_head2">Lütfen değerleri 0.0–100.0 arasında giriniz.</string>
+
+    <string name="act_2_head1">Ders Notu Değiştirerek Hesap</string>
+    <string name="act_2_head2">Manuel Hesaplama</string>
+    <string name="act_2_head3">Ders notlarına limit koyabilirsiniz.</string>
+    <string name="act_2_head4">Olasılık seçiniz.</string>
+
+    <string name="act_3_head1">Transkript ile Hesap</string>
+    <string name="act_3_head2">Hatalar ve Düşüncelerinizi Bize Bildirin</string>
+    <string name="act_3_head3">Eğer hatanızı transkript ile hesaplamada yaşadıysanız, lütfen transkriptinizi de veriniz. Görmeden hatayı çözemeyiz…</string>
+
+    <string name="act_1_2_head">Ders girişi. (Tek tek giriniz.)</string>
+
+    <string name="edevlet_info"><html>Lütfen E-Devlet\'ten çıkardığınız transkript belgenizi kullanın. Aksi halde hata oluşacaktır.</html></string>
+    <string name="trans_btn">Transkripti Seç</string>
+    <string name="currentAgno">Mevcut AGNO(GNO) notu:</string>
+    <string name="pointHint">3.14 gibi</string>
+    <string name="totalCred">AGNO\'ya katılmış derslerin kredi toplamları :</string>
+    <string name="totalCred2">AGNO\'ya katılmış derslerin kredi toplamları (yeni dönem hariç) :</string>
+    <string name="hint999">max. 999</string>
+    <string name="agnoHes1">Bu dönem yeni alınan ders sayısı :</string>
+    <string name="agnoHes2">Önceden alınmış bu dönem tekrar alınan ders sayısı :</string>
+    <string name="butPassAdding">Ders Girişine Geç</string>
+    <string name="lecCount">Ders sayma burada olacaktır.</string>
+    <string name="lecCount2">Varsa önce tekrar alınan dersleri sonra yeni alınan dersleri giriniz.</string>
+
+    <string name="lecLetter">Dersin harf notu :</string>
+
+    <string name="lecPastLetterChange">Yeni aldığınız dersleri giriniz.</string>
+    <string name="butAddLec">Dersi Ekle</string>
+
+    <string name="agnoShow">Hesaplanan AGNO notunuz burada gözükecektir.</string>
+    <string name="refresh">Yenile</string>
+    <string name="agnoKur1">Değiştirilecek ders sayısı :</string>
+    <string name="newLetter">Güncellenecek harf notu:</string>
+    <string name="currentLetter">Mevcut harf notu:</string>
+    <string name="optionalHint">opsiyonel</string>
+    <string name="posNum">Olasılık sayısı:</string>
+    <string name="posHint">min. 1</string>
+
+    <string name="minMaxLet">İstediğiniz minimum ve maksimum harf notu:</string>
+    <string name="butPos">Kombinasyonu Görüntüle</string>
+    <string name="posExp">Hesaplanmasını istediğiniz kombinasyon sayısı :</string>
+    <string name="agnoKurInfo">Kombinasyonlu Hesaplama</string>
+    <string name="mayAddLec">Ders girişi yapabilirsiniz.</string>
+    <string name="leftedLectures">%d dersten %d ders kaldı.</string>
+    <string name="leftedLectures1">Yeni alınan %d dersten %d ders kaldı.</string>
+    <string name="leftedLectures2">Tekrar alınan %d dersten %d ders kaldı.</string>
+    <string name="lecsEnded">Ders sayısına ulaşıldı.</string>
+    <string name="changAddLec">AGNO Hesapla</string>
+    <string name="termEndExp">Toplam kredi sayınız: %d\nAGNO\'nuz: %.2f\n%s</string>
+    <string name="chanKSH">Olasılıklarınız oluşturuldu.</string>
+    <string name="chanEntLec">Aşağıdaki bilgileri giriniz.</string>
+
+    <string name="newAgno">Güncel AGNO\'nuz: %s\n%s</string>
+    <string name="gbKonnu">Geri Bildirinizin Konusu:</string>
+    <string name="findTrans">Transkripti Bul"</string>
+    <string name="gbAccik">Geri Bildirinizin Açıklaması:</string>
+    <string name="send">Gönder</string>
+    <string name="delete">Sil</string>
+    <string name="basaAl">Başa Al</string>
+    <string name="silmeyiGeriAl">Silmeyi Geri Al</string>
+    <string name="dersNo">No</string>
+    <string name="dersAd">Ders Adı</string>
+    <string name="dersCred">Kredi</string>
+    <string name="dersNote">Ders Notu</string>
+    <string name="deleteBtn">Silme Butonu</string>
+    <string name="agnofirst">AGNO(GNO): </string>
+    <string name="credfirst">Toplam kredi: </string>
+    <string name="uniNotes">Üniversitenizin Notlandırma Sistemi</string>
+    <string name="sending">Gönderiliyor…</string>
+    <string name="creating">Olasılıklar oluşturuluyor…</string>
+    <string name="trans_info">Tablodaki ders notu sütununda üniversitenizin notlandırma sistemine göre ders notu güncelleme işlemi yapabilirsiniz. Aynı şekilde aşağıdaki kısımdan ders ekleme yapabilirsiniz.</string>
+
+    <string name="kombinasyonlu_1">Kombinasyonlu Agno Hesaplama</string>
+    <string name="ders_girisi">Ders girişi. (Değiştirilecek dersleri giriniz.)</string>
+    <string name="lecCred">Dersin kredisi</string>
+    <string name="finish_adding">Bitti</string>
+    <string name="kisitlar">Hesaplama Kısıtları</string>
+    <string name="minAgno">Ulaşmak istediğiniz agno :</string>
+    <string name="maxAgno">İstediğiniz maksimum agno :</string>
+    <string name="minLet">Minimum harf notu :</string>
+    <string name="maxLet">Maksimum harf notu :</string>
+    <string name="derssayar">%d ders girdiniz.</string>
+    <string name="tekrarDers">Dilerseniz tekrar ders girişi yapabilirsiniz.</string>
+    <string name="dersAdi">Dersin adı (opsiyonel)</string>
+    <string name="ksh">Kendimi Şanslı Hissediyorum</string>
+    <string name="spinPoss">%d numaralı %s puanının olasılığı</string>
+    <string name="posShow">Olasılık bilgileri burada gözükecektir.</string>
+
+    <string name="manuel_1">Manuel Agno Hesaplama</string>
+    <string name="manuel_2">Ders Tablosu</string>
+    <string name="manuel_3">Eski Not</string>
+    <string name="manuel_4">Yeni Not</string>
+    <string name="lecPastLetter">Dersin önceki harf notu :</string>
+    <string name="lecNewLetter">Dersin yeni harf notu :</string>
+    <string name="manuel_5">Dersin adı</string>
+
+    <string name="dersBekle">Önce \"Ders Girişine Geç\" butonuna bas.</string>
+    <string name="dersEkleyebilirsin">Artık ders ekleyebilirsin.</string>
+
+    <string name="playPuanla">Bizi Değerlendirin</string>
+    <string name="degermi">\t\tUniSaver hakkındaki fikirleriniz bizim için çok değerlidir. İyi ya da kötü değerlendirmelerinizi lütfen paylaşın.</string>
+    <string name="degerlendirButton">Değerlendir</string>
+    <string name="ozelHarfler">Ders Notu Ayarları</string>
+
+    <string name="notDiziAct1">Not Dizisi Oluştur</string>
+    <string name="notDiziAct2">Not Dizisi Düzenle</string>
+    <string name="notDiziAct3">Not Dizisi Görüntüle</string>
+
+    <string name="notEkleBilgi">Not Ekle</string>
+    <string name="notHint">Ders Notu İsmi</string>
+    <string name="puanHint">Notun Etki Puanı</string>
+    <string name="notEkleButton">Notu Diziye Ekle</string>
+    <string name="dersNotu">Not İsmi</string>
+    <string name="notPuani">Notun Etki Puanı</string>
+    <string name="notDizisiInfo">Diziyi tamamladığınızda aşağıdaki \"Bitir\" butonuna basın.</string>
+    <string name="diziOlustur">Bitir</string>
+
+    <string name="harfNotlariAct1">Ders Notu Dizileri Tablosu</string>
+    <string name="notDiziIsmi">Not Dizisinin İsmi</string>
+    <string name="next">İlerle</string>
+
+</resources>
